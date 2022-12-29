@@ -1,21 +1,20 @@
-### Python Testing
-Is a project which you can use to write fast unit tests, just write your code within src folder and run the nodemon command.
+# TBD
 
-### Installation
 
-Pipenv
 
-```sh
-pipenv install
+## Installation
+```
+pip install --upgrade pip
+pip install -r requirements.txt
 ```
 
-Nodemon
+### Nodemon
 
 ```sh
 sudo npm install -g nodemon
 ```
 
-### Run
+## Running
 ```sh
-nodemon --ext py --exec "pipenv run pytest src/**"
+nodemon --ext py --exec "python -m pytest -v src/**"
 ```
